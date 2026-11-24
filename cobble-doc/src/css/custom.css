@@ -1,0 +1,17 @@
+@import '../../hasor-tech/chrome.css';
+@import '../../hasor-tech/markdown.css';
+
+:root {
+    --ifm-color-primary: #8a502f;
+    --ifm-color-primary-dark: #794529;
+    --ifm-color-primary-darker: #6f3f27;
+    --ifm-color-primary-darkest: #5a321f;
+    --ifm-color-primary-light: #985b39;
+    --ifm-color-primary-lighter: #a6653f;
+    --ifm-color-primary-lightest: #bb7950;
+    --ifm-menu-color-background-active: #f4e6d8;
+    --ifm-menu-color-background-hover: #fcf3e9;
+    --search-local-highlight-color: var(--ifm-color-primary);
+    --project-home-background: #fbf4eb;
+    --project-home-border: #eadaca;
+}

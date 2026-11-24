@@ -13,9 +13,9 @@
     }
   ],
   "scm": {
-    "connection": "scm:git:git@gitee.com:zycgit/cobble.git",
-    "developerConnection": "scm:git:git@gitee.com:zycgit/cobble.git",
-    "url": "https://gitee.com/zycgit/cobble",
+    "connection": "scm:git:git@gitee.com:hasortech/cobble.git",
+    "developerConnection": "scm:git:git@gitee.com:hasortech/cobble.git",
+    "url": "https://gitee.com/hasortech/cobble",
     "tag": "HEAD"
   }
 }

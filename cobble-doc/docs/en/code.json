@@ -1,0 +1,41 @@
+{
+  "project.community.title": {
+    "message": "Join the community"
+  },
+  "project.community.description": {
+    "message": "Share your experience, report issues, and help improve Cobble."
+  },
+  "project.home.quickstart": {
+    "message": "Quick start"
+  },
+  "project.home.overview": {
+    "message": "About Cobble"
+  },
+  "project.home.details": {
+    "message": "Learn more"
+  },
+  "navbar.title": {
+    "message": "Hasor Tech"
+  },
+  "cobble.home.title": {
+    "message": "Java utility toolkit"
+  },
+  "cobble.home.description": {
+    "message": "Use general utilities, dynamic proxies, resource loading, and configuration as needed."
+  },
+  "cobble.modules.title": {
+    "message": "Modules"
+  },
+  "cobble.lang": {
+    "message": "Utilities for strings, collections, and type conversion."
+  },
+  "cobble.dynamic": {
+    "message": "ASM-based dynamic proxies and method interception."
+  },
+  "cobble.loader": {
+    "message": "Resource discovery, loader composition, and class isolation."
+  },
+  "cobble.settings": {
+    "message": "Read Properties, XML, and YAML through one interface."
+  }
+}
