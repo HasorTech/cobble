@@ -8,4 +8,4 @@ npm run start:alone
 npm run build
 ```
 
-默认开发入口为 `http://localhost:4306/`。英文开发预览使用 `npm run start:alone -- --locale en`。
+默认开发入口为 `http://localhost:5306/`。英文开发预览使用 `npm run start:alone -- --locale en`。

@@ -1,6 +1,7 @@
 {
   "name": "cobble-doc",
-  "version": "0.0.0",
+  "version": "5.0.5",
+  "lastReleaseTime": "2026-11-27",
   "private": true,
   "description": "Cobble documentation website",
   "scripts": {

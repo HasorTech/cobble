@@ -2,6 +2,7 @@
 const {themes} = require('prism-react-renderer');
 const ecosystem = require('./hasor-tech/config');
 const {onlineOrigins} = require('./hasor-tech/routes');
+const {replaceVariables} = require('./plugins/projectVars');
 
 module.exports = ecosystem({
     title: 'Cobble',
@@ -15,6 +16,11 @@ module.exports = ecosystem({
     onBrokenLinks: 'throw',
     onBrokenAnchors: 'throw',
     markdown: {
+        preprocessor: ({fileContent}) => replaceVariables(fileContent),
+        parseFrontMatter: ({filePath, fileContent, defaultParseFrontMatter}) => defaultParseFrontMatter({
+            filePath,
+            fileContent: replaceVariables(fileContent),
+        }),
         hooks: {onBrokenMarkdownLinks: 'throw', onBrokenMarkdownImages: 'throw'},
     },
     i18n: {defaultLocale: 'zh-cn', locales: ['zh-cn', 'en']},
